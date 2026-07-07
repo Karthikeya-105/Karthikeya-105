@@ -183,52 +183,11 @@ Computer Science Engineering Student | Full Stack Developer | AI Enthusiast | Op
 
 # 🐍 Contribution Snake
 
-> Create the following GitHub Action file to generate the snake animation.
-
-```
-.github/workflows/snake.yml
-```
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-
-  workflow_dispatch:
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: Karthikeya105
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Then add this anywhere in README:
-
-```markdown
 <p align="center">
 
 <img src="https://raw.githubusercontent.com/Karthikeya105/Karthikeya105/output/github-contribution-grid-snake-dark.svg" />
 
 </p>
-```
 
 ---
 
