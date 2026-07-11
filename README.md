@@ -145,14 +145,6 @@
 
 ---
 
-## 💬 Dev Quote of the Day
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
-</p>
-
----
-
 
 
 ## 📊 Profile Views
@@ -163,13 +155,6 @@
 
 ---
 
-## ❤️ Support
-
-<p align="center">
-  If you find my work helpful, please consider giving my repositories a <strong>⭐ Star</strong> — it means a lot!
-</p>
-
----
 
 <p align="center">
   <strong>Thanks for visiting my profile! 🙏</strong>
